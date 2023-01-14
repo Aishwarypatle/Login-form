@@ -1,10 +1,53 @@
 img{
     width: 40px;
-    height: 40px;
-    
+    height: 40px; 
 }
 
 *
 {
-    color: aliceblue;
+    color: #334257;
+    
+}
+
+.card
+{
+    border-radius: 1rem;
+    width: 50vh;
+    height:fit-content;
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(108,230,230,1) 0%, rgba(160,226,212,1) 83%);
+}
+
+input {
+    border:0;
+    outline:0;
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(108,230,230,1) 0%, rgba(160,226,212,1) 83%);
+}
+input:focus {
+    outline:none!important;
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(108,230,230,1) 0%, rgba(160,226,212,1) 83%);
+}
+input::placeholder{
+    text-align: center;
+}
+.field
+{
+    border-bottom: 2px solid black;
+}
+
+button
+{
+    border: none;
+    border-radius: .5rem;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(211,18,203,1) 0%, rgba(225,19,86,1) 83%);
+}
+
+a{
+    text-decoration: none;
+    color: #334257;
+    font-size:small;
+    font-weight: bold;
+}
+
+header{
+    border-bottom: 2px solid black;
 }
