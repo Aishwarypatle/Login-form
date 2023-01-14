@@ -1,12 +1,11 @@
+import Form from "./components/Form";
 
 
 
 function App() {
   return (
     <>
-      <h3>
-
-      </h3>
+      <Form />
 
     </>
   );
